@@ -1,0 +1,9 @@
+.nav-link {
+  margin-left: 15px;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #242424 !important;
+}
