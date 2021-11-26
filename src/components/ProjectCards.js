@@ -6,12 +6,9 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import CssBaseline from "@mui/material/CssBaseline";
 import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import tictactoe from "./images/tic-tac-toe_1.jpg";
 import matapals from "./images/under-construction.jpg";
@@ -153,7 +150,7 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/appleclone">
+                  <Link to="/apple-clone">
                     <CardMedia
                       component="img"
                       sx={{
@@ -173,7 +170,7 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/appleclone">
+                    <Button size="small" href="/apple-clone">
                       View
                     </Button>
                   </CardActions>
@@ -189,7 +186,7 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/spotifyclone">
+                  <Link to="/spotify-clone">
                     <CardMedia
                       component="img"
                       sx={{
@@ -210,7 +207,7 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/spotifyclone">
+                    <Button size="small" href="/spotify-clone">
                       View
                     </Button>
                   </CardActions>
@@ -226,7 +223,7 @@ export default function ProjectCards() {
                     color: "#f0f2f5",
                   }}
                 >
-                  <Link to="/googleclone">
+                  <Link to="/google-clone">
                     <CardMedia
                       component="img"
                       sx={{
@@ -247,7 +244,7 @@ export default function ProjectCards() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="/googleclone">
+                    <Button size="small" href="/google-clone">
                       View
                     </Button>
                   </CardActions>

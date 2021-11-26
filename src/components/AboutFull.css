@@ -1,3 +1,4 @@
-.about-full {
-  height: 100vh;
+.about-full h1 {
+  text-align: center;
+  color: #f0f2f5;
 }

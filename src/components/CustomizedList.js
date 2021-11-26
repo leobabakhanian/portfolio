@@ -87,7 +87,7 @@ export default function CustomizedList() {
                 },
               })}
             >
-              <Paper elevation={0} sx={{ width: 400, minWidth: 250 }}>
+              <Paper elevation={0} sx={{ width: 555, minWidth: 250 }}>
                 <FireNav component="nav" disablePadding>
                   <ListItemButton>
                     <ListItemIcon sx={{ fontSize: 20 }}>⚡</ListItemIcon>
@@ -194,7 +194,7 @@ export default function CustomizedList() {
                 },
               })}
             >
-              <Paper elevation={0} sx={{ width: 400, minWidth: 250 }}>
+              <Paper elevation={0} sx={{ width: 555, minWidth: 250 }}>
                 <FireNav component="nav" disablePadding>
                   <ListItemButton>
                     <ListItemIcon sx={{ fontSize: 20 }}>🧰</ListItemIcon>

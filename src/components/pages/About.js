@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <AboutFull />
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 }

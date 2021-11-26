@@ -1,9 +1,10 @@
 import React from "react";
+import MoreProjectCards from "../MoreProjectCards";
 
 function More() {
   return (
     <>
-      <h1>More</h1>
+      <MoreProjectCards />
     </>
   );
 }

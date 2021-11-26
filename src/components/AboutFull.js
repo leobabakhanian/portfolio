@@ -2,14 +2,14 @@ import React from "react";
 import AboutMain from "./AboutMain";
 import CustomizedList from "./CustomizedList";
 import "./AboutFull.css";
-import AboutSecond from "./AboutSecond";
+import { ProfileCard } from "./ProfileCard";
 
 function AboutFull() {
   return (
     <div className="about-full">
       <AboutMain />
       <CustomizedList />
-      <AboutSecond />
+      <ProfileCard />
     </div>
   );
 }

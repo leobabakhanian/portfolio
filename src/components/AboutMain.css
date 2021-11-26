@@ -11,10 +11,3 @@
   color: #f0f2f5;
   padding: 25px 35px 15px;
 }
-
-@media only screen and (max-width: 768px) {
-  #about-main {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-}

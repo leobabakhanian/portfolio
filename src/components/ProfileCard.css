@@ -1,0 +1,40 @@
+#card__name {
+  margin-top: 20px;
+}
+
+#card__contact {
+  margin-top: 15px;
+}
+
+#card__contact a {
+  text-decoration: inherit;
+  color: #f0f2f5;
+}
+
+#card__contact a:hover {
+  text-decoration: underline;
+}
+
+#card__bio {
+}
+
+#divider {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+#card__country {
+  position: absolute;
+  z-index: 2;
+  margin-top: -25px;
+  margin-left: 60px;
+  -webkit-filter: drop-shadow(1px 1px 0 #f0f2f5)
+    drop-shadow(-1px -1px 0 #f0f2f5);
+  filter: drop-shadow(1px 1px 0 #f0f2f5) drop-shadow(-1px -1px 0 #f0f2f5);
+}
+
+#profile {
+  padding-bottom: 50px;
+}
