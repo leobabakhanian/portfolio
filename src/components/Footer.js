@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import { Container, Row, Col } from "react-bootstrap";
-import { Grid, IconButton } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Footer() {

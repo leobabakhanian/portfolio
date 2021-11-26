@@ -1,14 +1,14 @@
 import React from "react";
-import HeroSection from "../HeroSection";
 import Footer from "../Footer";
+import AboutFull from "../AboutFull";
 
-function Home() {
+function About() {
   return (
     <>
-      <HeroSection />
+      <AboutFull />
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default About;

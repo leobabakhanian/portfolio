@@ -1,6 +1,7 @@
 .footer-container {
-  background-color: #242424;
+  background-color: #121212;
   padding: 20px 20px 10px 20px;
+  width: 100%;
 }
 
 #footer-email,
@@ -11,7 +12,7 @@
 }
 
 #footer-mailto {
-  color: white;
+  color: #f0f2f5;
   font-size: 18px;
   text-decoration: inherit;
 }
@@ -21,7 +22,7 @@
 }
 
 #divider {
-  color: #fff;
+  color: #f0f2f5;
 }
 
 #divider {
@@ -37,7 +38,6 @@
 
 @media only screen and (max-width: 768px) {
   .footer-container {
-    background-color: #242424;
     padding: 20px 20px 30px 20px;
   }
 }

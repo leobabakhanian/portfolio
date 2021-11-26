@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #121212 !important;
+  height: 100%;
 }
 
 code {
@@ -17,7 +19,7 @@ code {
 }
 
 ::-webkit-scrollbar-track {
-  background: #242424;
+  background: #121212;
 }
 
 ::-webkit-scrollbar-thumb {

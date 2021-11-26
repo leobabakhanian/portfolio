@@ -1,0 +1,12 @@
+#card-link {
+  text-decoration: inherit;
+}
+
+#card-link {
+  text-decoration: underline;
+}
+
+.projects-container {
+  padding-top: 35px;
+  height: 100vh;
+}

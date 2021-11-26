@@ -33,8 +33,12 @@ function Header() {
                 More
               </Nav.Link>
               <Nav.Link className="nav-link" href="/about">
-                About Me
+                About
               </Nav.Link>
+              {/*
+              <Nav.Link className="nav-link" href="/resume">
+                Resume
+              </Nav.Link>*/}
             </Nav>
           </Navbar.Collapse>
         </Container>
