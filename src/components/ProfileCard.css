@@ -30,11 +30,16 @@
   z-index: 2;
   margin-top: -25px;
   margin-left: 60px;
-  -webkit-filter: drop-shadow(1px 1px 0 #f0f2f5)
-    drop-shadow(-1px -1px 0 #f0f2f5);
-  filter: drop-shadow(1px 1px 0 #f0f2f5) drop-shadow(-1px -1px 0 #f0f2f5);
+  border: 2px solid #f0f2f5;
+  border-radius: 500px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
 }
 
 #profile {
   padding-bottom: 50px;
+}
+
+.profile-right {
+  padding-left: 205px;
 }

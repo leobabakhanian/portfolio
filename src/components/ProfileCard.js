@@ -13,7 +13,7 @@ import "./ProfileCard.css";
 const card = (
   <React.Fragment>
     <CardContent sx={{ minHeight: 245 }}>
-      <Grid container spacing={25.75}>
+      <Grid container>
         <Tooltip title="Glendale, CA" placement="right-end">
           <Grid item>
             <Avatar
@@ -30,7 +30,7 @@ const card = (
             />
           </Grid>
         </Tooltip>
-        <Grid item>
+        <Grid item className="profile-right">
           <IconButton
             href="https://github.com/leobabakhanian"
             target="_blank"
@@ -53,7 +53,7 @@ const card = (
       </Typography>
       <Divider id="divider" sx={{ color: "#f0f2f5" }} />
       <Typography variant="body2" id="card__bio">
-        I love football ⚽ and FC Barcelona! I'm also obssessed with anything
+        I love football ⚽ and FC Barcelona! I'm also obsessed with anything
         crypto including blockchain technology.
       </Typography>
     </CardContent>
@@ -65,7 +65,7 @@ export function ProfileCard() {
     <Container fluid id="profile">
       <Row className="justify-content-center">
         <Col xs="auto">
-          <Box sx={{ maxWidth: 350 }}>
+          <Box sx={{ width: 350 }}>
             <Card
               variant="outlined"
               style={{

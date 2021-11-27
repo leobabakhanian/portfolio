@@ -89,8 +89,10 @@ export default function CustomizedList() {
             >
               <Paper elevation={0} sx={{ width: 555, minWidth: 250 }}>
                 <FireNav component="nav" disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon sx={{ fontSize: 20 }}>⚡</ListItemIcon>
+                  <ListItemButton id="pointer">
+                    <ListItemIcon sx={{ fontSize: 20 }} id="pointer">
+                      ⚡
+                    </ListItemIcon>
                     <ListItemText
                       sx={{ my: 0 }}
                       primary="Languages I work with"
@@ -99,6 +101,7 @@ export default function CustomizedList() {
                         fontWeight: "medium",
                         letterSpacing: 0,
                       }}
+                      id="pointer"
                     />
                   </ListItemButton>
                   <Divider />
@@ -157,8 +160,9 @@ export default function CustomizedList() {
                             minHeight: 32,
                             color: "rgba(255,255,255,.8)",
                           }}
+                          id="pointer"
                         >
-                          <ListItemIcon sx={{ color: "inherit" }}>
+                          <ListItemIcon sx={{ color: "inherit" }} id="pointer">
                             {item.icon}
                           </ListItemIcon>
                           <ListItemText
@@ -167,6 +171,7 @@ export default function CustomizedList() {
                               fontSize: 14,
                               fontWeight: "medium",
                             }}
+                            id="pointer"
                           />
                         </ListItemButton>
                       ))}
@@ -196,8 +201,10 @@ export default function CustomizedList() {
             >
               <Paper elevation={0} sx={{ width: 555, minWidth: 250 }}>
                 <FireNav component="nav" disablePadding>
-                  <ListItemButton>
-                    <ListItemIcon sx={{ fontSize: 20 }}>🧰</ListItemIcon>
+                  <ListItemButton id="pointer">
+                    <ListItemIcon sx={{ fontSize: 20 }} id="pointer">
+                      🧰
+                    </ListItemIcon>
                     <ListItemText
                       sx={{ my: 0 }}
                       primary="Dev Tools I use"
@@ -206,6 +213,7 @@ export default function CustomizedList() {
                         fontWeight: "medium",
                         letterSpacing: 0,
                       }}
+                      id="pointer"
                     />
                   </ListItemButton>
                   <Divider />
@@ -264,8 +272,9 @@ export default function CustomizedList() {
                             minHeight: 32,
                             color: "rgba(255,255,255,.8)",
                           }}
+                          id="pointer"
                         >
-                          <ListItemIcon sx={{ color: "inherit" }}>
+                          <ListItemIcon sx={{ color: "inherit" }} id="pointer">
                             {item.icon}
                           </ListItemIcon>
                           <ListItemText
@@ -274,6 +283,7 @@ export default function CustomizedList() {
                               fontSize: 14,
                               fontWeight: "medium",
                             }}
+                            id="pointer"
                           />
                         </ListItemButton>
                       ))}
